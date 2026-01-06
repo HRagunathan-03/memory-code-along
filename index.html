@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Card Game</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     
 </head>
 <body>
@@ -30,7 +30,14 @@
             </div>
         </div>
 
-        <div class="game-board" id="gameBoard"></div>
+        <div class="game-board" id="gameBoard">
+            <div class="card flipped">
+                <div class="card-front"><i class="fas fa-heart"></i></div>
+                <div class="card-back"><img src="" alt=""></div>
+            </div>
+
+
+        </div>
 
         <div class="controls">
             <button class="btn" onclick="newGame()">
